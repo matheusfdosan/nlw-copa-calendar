@@ -55,7 +55,7 @@ header {
   text-align: center;
 }
 
-.cards {
+.cards-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -182,7 +182,7 @@ header {
 /* MEDIA QUERIES */
 
 @media (min-width: 670px) {
-  .cards {
+  .cards-wrapper {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;

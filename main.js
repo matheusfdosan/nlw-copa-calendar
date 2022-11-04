@@ -28,7 +28,7 @@ function createGame(team1, hour, team2) {
   `
 }
 
-document.querySelector(".cards").innerHTML =
+document.querySelector(".cards-wrapper").innerHTML =
   createCard(
     createDate("24/11", "quinta"),
     createGame("switzerland", "07:00", "cameroon"),
